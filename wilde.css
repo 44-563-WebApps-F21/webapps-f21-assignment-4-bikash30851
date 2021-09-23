@@ -20,4 +20,33 @@
 .ASCANIO{
     color:aqua;
 }
+#Table {
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid green;
+  width: 50%;
+  border: 1px solid darkblue;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  }
+  
+  #Table tr {
+    border: 3px solid green;
+    text-align: center;
+    padding: 3px;
+  }
+  
+  #Table tr:nth-child(even){background-color: darkred;}
+  #Table tr:nth-child(odd){background-color: orange;}
+  #Table tr:hover {background-color: yellow;}
+  
+  #Table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+      border: 1px solid green;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
 
