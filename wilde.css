@@ -51,13 +51,24 @@ h4:hover {
     background-color: #04AA6D;
     color: white;
   }
-  ul.navbar-horizontal a {
+  ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 19;
+    padding: 19;
+    }
+    ul.navbar-horizontal li {
+    float:left; 
+    color:rgb(216, 31, 31);
+    border: 2px solid rgb(77, 30, 124);
+    background-color:rgb(247, 247, 159);
+    } 
+ul.navbar-horizontal a {
     display:block;
     padding:9px
-    }
-    ul.navbar-horizontal a:hover {
-        background-color: yellow;
-        color:red;
-    }
+}
+ul.navbar-horizontal a:hover {
+    background-color: yellow;
+    color:red;
+}
  
 
